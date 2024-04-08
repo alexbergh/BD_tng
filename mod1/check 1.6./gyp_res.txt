@@ -1,0 +1,15 @@
+T-test:
+
+The t-statistic value is approximately -31.58, and the p-value is significantly less than 0.05. This indicates that there is a statistically significant difference between the average time customers stay with the company in groups of customers who have left (Churn='Yes') and those who have stayed (Churn='No'). The hypothesis that the average number of months a customer remains with the company differs between these two samples is confirmed.
+
+Normality Test:
+
+For MonthlyCharges, TotalCharges, and tenure, the p-value is significantly less than 0.05, indicating that the distribution of these variables does not follow a normal distribution. This means that for data analysis assuming a normal distribution, the use of non-parametric methods or data transformation to approximate a normal distribution may be necessary.
+
+Conclusions:
+
+The difference in the duration of service use between customers who have left and those who have stayed is statistically confirmed, which may indicate the importance of the duration of customer service as a factor affecting their loyalty.
+
+The non-normal distribution of key numerical variables underscores the need for careful selection of statistical methods for further analysis. In particular, this may mean that for comparing groups, non-parametric tests (such as the Mann-Whitney test instead of the t-test if it's necessary to compare medians) are more appropriate, and for analyzing correlations, correlation coefficients that do not assume normality, such as Spearman's or Kendall's, should be used.
+
+The lack of a normal distribution also raises questions about the methods of analysis and modeling that will be used further, as many classical statistical tests and models assume normality of the data. It may be necessary to apply data transformation techniques, such as logarithmization, or to use more complex models that are robust to violations of the assumptions about normal distribution.
