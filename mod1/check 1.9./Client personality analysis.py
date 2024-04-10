@@ -6,7 +6,7 @@ import os
 
 # Шаг 0: Загрузка данных
 current_dir = os.getcwd()
-file_path = os.path.join(current_dir, 'marketing_campaign.csv')  # Убедитесь, что имя файла корректно
+file_path = os.path.join(current_dir, 'marketing_campaign.csv')
 df = pd.read_csv(file_path, sep='\t')
 
 # Убедимся, что лишние пробелы в названиях колонок устранены
