@@ -36,4 +36,4 @@ pip install -r requirements.txt
 
 #
 
-Ссылка на репозиторий: [https://github.com/alexbergh/BD_tng](https://github.com/alexbergh/BD_tng)
+Ссылка на репозиторий: [BD_tng](https://github.com/alexbergh/BD_tng)
